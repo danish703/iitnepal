@@ -17,9 +17,9 @@ from django.contrib import admin
 from django.urls import path,include
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('admission/',include('admission.urls')),
-    path('account/',include('account.urls')),
-    path('inquery/',include('inquery.urls')),
-    path('training/',include('training.urls')),
-    path('trainer/',include('trainer.urls'))
+    # path('admission/',include('admission.urls')),
+    # path('account/',include('account.urls')),
+    # path('inquery/',include('inquery.urls')),
+    # path('training/',include('training.urls')),
+    # path('trainer/',include('trainer.urls'))
 ]
